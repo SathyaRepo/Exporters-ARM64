@@ -12,7 +12,7 @@ echo "Retrieved Package... Unpacking"
 tar xvfz node_exporter-1.6.1.linux-arm64.tar.gz
 
 # Change to the Node Exporter directory
-cd node_exporter-1.6.1.linux-arm64
+#cd node_exporter-1.6.1.linux-arm64
 
 # Copy the Node Exporter binary to /usr/sbin
 sudo cp node_exporter-1.6.1.linux-arm64/node_exporter /usr/sbin/
