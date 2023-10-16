@@ -10,6 +10,7 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_e
 # Unpack the Node Exporter archive
 echo "Retrieved Package... Unpacking"
 tar xvfz node_exporter-1.6.1.linux-arm64.tar.gz
+chmod 777 *
 
 # Change to the Node Exporter directory
 #cd node_exporter-1.6.1.linux-arm64
