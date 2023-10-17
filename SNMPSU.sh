@@ -43,5 +43,5 @@ EOF
 
 # Save and exit from the text editor
 sudo systemctl daemon-reload
-sudo systemctl enable snmp_exporter
-sudo systemctl start snmp_exporter
+sudo systemctl enable snmp-exporter
+sudo systemctl start snmp-exporter
