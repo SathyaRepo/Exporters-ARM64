@@ -17,10 +17,13 @@ tar xvfz snmp_exporter-0.24.1.linux-arm64.tar.gz
 sudo useradd --system prometheus
 
 # Change to the SNMP Exporter directory
-#cd snmp_exporter-0.29.0.linux-arm64
+cd snmp_exporter-0.24.1.linux-arm64
+cp ./snmp_exporter /usr/local/bin/snmp_exporter
+cp ./snmp.yml /usr/local/bin/snmp.yml
+cd /usr/local/bin/
 
 # Copy the SNMP Exporter binary to /usr/sbin
-sudo cp snmp_exporter /usr/sbin/
+#sudo cp snmp_exporter /usr/sbin/
 
 # Create a systemd service file for SNMP Exporter
 echo "Creating SNMP Exporter Service file"
